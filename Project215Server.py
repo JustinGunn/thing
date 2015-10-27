@@ -2,7 +2,7 @@ from socket import *
 import thread
 
 BUFF = 1024
-HOST = '10.201.30.102'# must be input parameter @TODO
+HOST = 'localhost'# must be input parameter @TODO
 PORT = 9999 # must be input parameter @TODO
 def response(key):
     return 'Server response: ' + key
